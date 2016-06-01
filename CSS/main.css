@@ -17,6 +17,10 @@ ul {
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: arial;
+  background-color: white; }
+
 .container {
   display: block;
   vertical-align: top;

@@ -6,6 +6,14 @@ $tertiaryColor: #DDB179;
 
 @import "text";
 
+@mixin bodystyles() {
+	font-family: arial;
+	background-color: white;
+}
+
+body {
+	@include bodystyles;
+}
 
 .container {
 	display: block;
