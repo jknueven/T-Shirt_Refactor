@@ -1,8 +1,8 @@
 $primaryColor: #7FBBE8;
 
-$secondaryColor: #DDB179;
+$secondaryColor: #D382AA;
 
-$tertiaryColor: #D382AA;
+$tertiaryColor: #DDB179;
 
 @import "text";
 
@@ -27,7 +27,6 @@ $tertiaryColor: #D382AA;
 }
 
 .right, .middle, .left {
-	margin-left: 5%; 
 	height: 60%;
 	display: inline-block;
 	vertical-align: center;
@@ -57,7 +56,8 @@ $tertiaryColor: #D382AA;
 	display: inline-block;
 	vertical-align: top;
 	height: 100%;
-	width: 19%;
+	width: 70px / 346px * 100%;
+	margin-left: -4px;
 	border-right:2px solid;
 	border-color: $primaryColor;
 }
@@ -65,9 +65,10 @@ $tertiaryColor: #D382AA;
 .subbox {
 	
 	i{
+	font-size: 20px;
 	color: $primaryColor;
-	margin-top: 13px;
-	margin-left: 24px;
+	margin-top: 9px;
+	margin-left: 26px;
 	display: inline-block;
 	}
 
@@ -95,7 +96,7 @@ $tertiaryColor: #D382AA;
     display: inline-block;
     background: none;
     margin-top: 6px; 
-    margin-left: 15px;
+    margin-left: 19px;
 }
 
 .subbox:hover {
@@ -141,19 +142,19 @@ $tertiaryColor: #D382AA;
 	i {
 		color: $primaryColor;
 		position: absolute;
-		top: 7px;
-		right:5px;
+		top: 8px;
+		right:6px;
 	}
+}
 
-	:hover {
+.flipbox:hover {
 	background-color: $primaryColor;
 	color:white;
 	cursor: pointer;
-	}
+}
 
-	.flipbox:hover i {
+.flipbox:hover i {
 	color: white;
-	}
 }
 
 .dropdown_content {
@@ -179,8 +180,8 @@ $tertiaryColor: #D382AA;
     display: inline-block;
     background: none;
     padding: 0;
-    margin-top: 6px; 
-    margin-left: 23px;
+    margin-top: 7px; 
+    margin-left: 26px;
 }
 
 .dropbtnIMG i {
@@ -210,16 +211,16 @@ $tertiaryColor: #D382AA;
     background: none;
     padding: 0;
     margin: 0;
-    margin-top: 2px;
-    margin-left: 12px;
+    margin-top: 5px; 
+    margin-left: 22px;
 }
 
 .dropbtnIMGtwo i{
 	vertical-align: top;
 	margin: 0;
-	margin-left: 5px;
-	margin-top: 5px;
-	color: #D382AA;
+	margin-left: 4px;
+	margin-top: 4px;
+	color: $secondaryColor;
 }
 
 .dropbtnIMGthree {
@@ -232,14 +233,14 @@ $tertiaryColor: #D382AA;
     padding: 0;
     margin: 0;
     margin-top: 2px;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
 .dropbtnIMGthree i{
 	vertical-align: top;
 	margin: 0;
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 10px;
+	margin-top: 7px;
 	color: #DDB179;
 }
 
@@ -248,7 +249,8 @@ $tertiaryColor: #D382AA;
 }
 
 .dropdown_content.boxesdropdwn {
-	top:-75px;
+	top:-82px;
+	width: 100%;
 }
 
 .dropdown_content.boxesdropdwn {
@@ -281,7 +283,7 @@ $tertiaryColor: #D382AA;
 }
 
 .dropdown_content a:hover {
-  background-color: #1DA1F2;
+  background-color: $primaryColor;
   margin:0;
 }
 
@@ -292,7 +294,7 @@ $tertiaryColor: #D382AA;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #1DA1F2;
+    background-color: $primaryColor;
 }
 
 .dropdown_content ul {
