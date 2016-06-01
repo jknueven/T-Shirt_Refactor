@@ -219,8 +219,9 @@ ul {
   color: #D382AA; }
 
 .dropdown_content.boxesdropdwn {
-  top: -82px;
-  width: 100%; }
+  top: -83px;
+  width: 103%;
+  position: relative; }
 
 .dropdown_content.boxesdropdwn i {
   padding-left: 5px; }
